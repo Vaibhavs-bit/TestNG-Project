@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="listernusingtakscreenshot.Screeshotfailedtestcases"></listener></listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+       <class name="listernusingtakscreenshot.Testclass">
+     <methods><include name="abhibus"/>
+     </methods>
+      </class>
+    </classes> 
+  </test> <!-- Test -->
+  
+  
+   <test thread-count="5" name="Test2">
+    <classes>
+      <class name="listernusingtakscreenshot.Testclass">
+     <methods><include name="zingbus"/>
+     </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test thread-count="5" name="Test3">
+    <classes>
+      <class name="listernusingtakscreenshot.Testclass">
+     <methods><include name="rahulshettyacademy"/>
+     </methods>
+      </class>
+    </classes>
+    
+    
+  </test> <!-- Test -->
+     <test thread-count="5" name="Test4">
+    <classes>
+      <class name="listernusingtakscreenshot.Testclass">
+     <methods>
+     <include name="Orangehrm"/>
+     </methods>
+      </class>
+    </classes>
+    
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
